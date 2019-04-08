@@ -8,7 +8,7 @@ shinyUI(fluidPage(
     # Styles
     tags$head(
         tags$style(
-            ".title {margin: auto; width: 500px} .img-title {margin: auto; width: 200px}"
+            ".title {margin: auto; width: 500px} .centered {text-align: center}"
         )
     ),
     
@@ -58,8 +58,13 @@ shinyUI(fluidPage(
         
     # Main Pannel
     mainPanel(
-        tags$div(class="img-title", h3("Here is your plot")),
-        plotOutput("main_plot")
+        tags$div(class="centered", h3("Here is your plot")),
+        plotOutput("main_plot"),
+        tags$div(class="centered",
+                 tags$a(href="https://github.com/Elborh/shiny-mtcars-visualizer", 
+                        "PLEASE SEE DOCUMENTATION HERE!")
+        )
+        
     )
   )
 ))
