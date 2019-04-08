@@ -24,4 +24,4 @@ For each input you can choose any mtcars variable of appropriate type.
 
 ## More information
 
-See the RPresenter presentation here for more information
+See the RPresenter presentation [here](http://rpubs.com/Elborh/mtcars-visualiser-pres) for more information
