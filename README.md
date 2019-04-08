@@ -22,6 +22,12 @@ The app enables user to select the following aesthetics:
 
 For each input you can choose any mtcars variable of appropriate type.
 
+## Enable trend line
+
+If you want trend line to be shown, enable the "Show Trend Line" check box. The trend line will be calculated on server side and will be added to the plot.
+
+You can also use the "Trend line by" selector to specify if you want a trend line be calculated based on all observations (select "All" in this case), or show individual trend line for each group of observations (select specific grouping criterion in this case).
+
 ## More information
 
-See the RPresenter presentation [here](http://rpubs.com/Elborh/mtcars-visualiser-pres) for more information
+See the R-Presenter presentation [here](http://rpubs.com/Elborh/mtcars-visualiser-pres) for more information
