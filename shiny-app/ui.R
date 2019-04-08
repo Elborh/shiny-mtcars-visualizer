@@ -45,6 +45,14 @@ shinyUI(fluidPage(
                         "Size by",
                         select_options,
                         "hp"
+            ),
+            checkboxInput("trend_check",
+                          "Show Trend Line"
+            ),
+            selectInput("trend_selector",
+                        "Trend line by",
+                        c("All", factor_vals),
+                        "All"
             )
         ),
         
