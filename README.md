@@ -30,4 +30,4 @@ You can also use the "Trend line by" selector to specify if you want a trend lin
 
 ## More information
 
-See the R-Presenter presentation [here](http://rpubs.com/Elborh/mtcars-visualiser-pres) for more information
+See the R-Presenter presentation [here](https://elborh.github.io/shiny-mtcars-visualizer/presentation/shinyapp-presentation-rpubs.html) for more information
